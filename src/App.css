@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Hanken Grotesk;
+    background-color: #ecf2ff;
+} 
+
+.container {
+    width: 736px;
+    height: 512px;
+    background-color:antiquewhite;
+    margin: 245px 363px 323px 341px;
+    border-radius: 32px;
+    box-shadow: 0 30px 60px 0 rgba(61, 108, 236, 0.15);
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+.result {
+    width: 368px;
+    height: 512px;
+    border-radius: 32px;
+    background-image: linear-gradient(to bottom, #75f, #6943ff, #2f2ce9);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 38px 54px 55px;
+}
+
+.result p {
+    font-size: 24px;
+    color: #cac9ff;
+    font-weight: bold;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, #4d21c9, rgba(63, 33, 201, 0.64) 33%, rgba(37, 33, 201, 0) 67%, rgba(37, 33, 201, 0) 67%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.circle h1 {
+    font-size: 72px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.circle span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #cac9ff;
+}
+
+.result h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 28px;
+}
+
+.result .performance-percent {
+    font-size: 18px;
+    font-weight: 500;
+    color: #cac9ff;
+    margin-top: 14px;
+}
+
+.summary {
+    margin: 41px 0 32px 40px;
+}
+
+.summary h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #303b59;
+    margin-bottom: 28px;
+}
+
+.continue{
+    width: 288px;
+    height: 56px;
+    margin: 41px 0 32px 0;
+    padding: 17px 107px 16px 106px;
+    border-radius: 128px;
+    background-image: linear-gradient(to bottom, #75f, #6943ff, #2f2ce9);
+}
+

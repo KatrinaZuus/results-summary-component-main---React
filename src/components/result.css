@@ -1,0 +1,43 @@
+
+.reaction {
+    background-color: #fff7f7;
+    color: red
+}
+
+.memory {
+    background-color: #fffcf4;
+    color: yellow;
+}
+
+.verbal {
+    background-color: #f3fcfa;
+    color: green
+}
+.visual {
+    background-color: #f4f5fd;
+    color: blue
+}
+
+.reaction,  
+.memory, 
+.verbal,
+.visual
+    {
+    width: 288px;
+    height: 56px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.description {
+    display: flex;
+    gap: 12px;
+}
+
+.description img {
+    width: 20px;
+    height: 20px;
+}
