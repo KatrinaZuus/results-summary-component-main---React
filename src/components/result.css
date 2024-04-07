@@ -1,21 +1,21 @@
 
 .reaction {
     background-color: #fff7f7;
-    color: red
+    color: #ff5555
 }
 
 .memory {
     background-color: #fffcf4;
-    color: yellow;
+    color: #ffb21e;
 }
 
 .verbal {
     background-color: #f3fcfa;
-    color: green
+    color: #00bb8f
 }
 .visual {
     background-color: #f4f5fd;
-    color: blue
+    color: #1125d6
 }
 
 .reaction,  
@@ -40,4 +40,15 @@
 .description img {
     width: 20px;
     height: 20px;
+}
+
+.result-from {
+    font-size: 18px;
+  font-weight: bold;
+  color: #303b59;
+}
+
+.result-from span {
+    color: #303b59;
+    opacity: 0.5;
 }

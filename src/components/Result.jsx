@@ -30,7 +30,7 @@ export default function Result() {
                         <img src={item.icon} alt="" />
                         <p>{item.category}</p>
                     </div>
-                    <p className="result-from">{item.score} / 100</p>
+                    <p className="result-from">{item.score} <span>/ 100</span> </p>
                 </div> 
                     ))}
 

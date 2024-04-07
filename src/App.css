@@ -95,6 +95,14 @@ body {
     margin: 41px 0 32px 0;
     padding: 17px 107px 16px 106px;
     border-radius: 128px;
+    background-color: #303b59;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.continue:hover {
+    cursor: pointer;
     background-image: linear-gradient(to bottom, #75f, #6943ff, #2f2ce9);
 }
 
