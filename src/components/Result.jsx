@@ -20,8 +20,8 @@ export default function Result() {
         
             {data.map((item, key)=>(
                 <div  
-                // key = {item.id}  ეს რა საჭიროა?
-                className={`${item.id === 1 ? "reaction" : 
+                // key = {item.id}  ეს რა საჭიროა? ლექციაზე ჰქონდა
+                className={`${item.id === 1 ? "reaction" :
                               item.id === 2 ? "memory" :
                               item.id === 3 ? "verbal" :
                               item.id === 4 ? "visual" : ""
