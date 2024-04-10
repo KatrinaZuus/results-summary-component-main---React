@@ -9,7 +9,8 @@ export default function Result() {
             <div className="result">
                 <p>Your Result</p>
                 <div className="circle">
-                    <h1>76</h1><span>of 100</span>
+                    <h1>76</h1>
+                    <span>of 100</span>
                 </div>
                 <h2>Great</h2>
                 <p className="performance-percent">Your performance exceed 65% of the people conducting the test here!</p>
